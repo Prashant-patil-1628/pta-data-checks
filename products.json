@@ -1,0 +1,66 @@
+[
+  {
+    "item_no": "DF-1001",
+    "gtin": "2000000010014",
+    "name": "Oat Crunch Muesli",
+    "supplier_id": "DEMOFOODS",
+    "category": "Breakfast cereals",
+    "net_quantity": 500,
+    "unit": "g",
+    "ingredients": "oat flakes, wheat flakes, hazelnuts, honey",
+    "allergens": [],
+    "front_image": "df1001_front.jpg",
+    "data_version": 3
+  },
+  {
+    "item_no": "DF-1003",
+    "gtin": "2000000010038",
+    "name": "Tomato Sauce",
+    "supplier_id": "DEMOFOODS",
+    "category": "Sauces",
+    "net_quantity": 400,
+    "unit": "g",
+    "ingredients": "tomatoes, onions, olive oil, salt, basil",
+    "allergens": ["none"],
+    "data_version": 1
+  },
+  {
+    "item_no": "DF-1004",
+    "gtin": "2000000010045",
+    "name": "Dark Chocolate 70 %",
+    "supplier_id": "DEMOFOODS",
+    "category": "Chocolate",
+    "net_quantity": null,
+    "unit": "g",
+    "ingredients": "cocoa mass, sugar, cocoa butter, soy lecithin",
+    "allergens": ["soy"],
+    "front_image": "df1004_front.jpg",
+    "data_version": 2
+  },
+  {
+    "item_no": "DF-1007",
+    "gtin": "2000000010076",
+    "name": "Fusilli Pasta",
+    "supplier_id": "DEMOFOODS",
+    "category": "Pasta",
+    "net_quantity": 500,
+    "unit": "g",
+    "ingredients": " ",
+    "allergens": ["gluten"],
+    "front_image": "df1007_front.jpg",
+    "data_version": 1
+  },
+  {
+    "item_no": "DF-1011",
+    "gtin": "2000000010113",
+    "name": "Rice Waffles Natural",
+    "supplier_id": "DEMOFOODS",
+    "category": "Snacks",
+    "net_quantity": 100,
+    "unit": "g",
+    "ingredients": "whole grain rice, salt",
+    "allergens": ["none"],
+    "front_image": "df1011_front.jpg",
+    "data_version": 1
+  }
+]
