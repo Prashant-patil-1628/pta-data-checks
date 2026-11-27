@@ -12,7 +12,10 @@ MANDATORY = ["gtin", "name", "net_quantity", "unit",
 
 
 def is_missing(value):
-    """A field counts as missing if it is absent (None), empty text or an empty list."""
+    """A field counts as missing if it is absent (None), empty or blank text,
+    or an empty list. v2: blank text (" ") now counts as missing too."""
+    if isinstance(value, str):
+        value = value.strip()
     return value is None or value == "" or value == []
 
 
